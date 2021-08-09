@@ -1,0 +1,1 @@
+curl --form addressFile=@/Users/SudeepGG/Desktop/NSS/capstone/batch_test.csv --form benchmark=Public_AR_Current --form vintage=Census2020_Current --form layers=all https://geocoding.geo.census.gov/geocoder/geographies/addressbatch --output geocoderesult.csv
